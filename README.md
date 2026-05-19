@@ -47,4 +47,12 @@ When training is complete, evaluation will automatically process.
    bash all.sh  # evaluate the seven mathematical reasoning benchmarks
    bash eval.sh  # evaluate one benchmarks
    ```
-You need to modify the path in `all.sh` and `eval.sh`.
+You need to modify the model path in `all.sh` and `eval.sh`.
+
+| Model | mACC |
+|:----------:|:-------------:|:----:|:----:|
+| CodeLlama-7B | 49.0 |
+| Qwen2.5-1.5B | 55.4 |
+| Mistral-7B | 56.5 |
+| DeepSeek-math-7B-Instruct | 66.1 |
+| Qwen2.5-7B | 70.6 |
