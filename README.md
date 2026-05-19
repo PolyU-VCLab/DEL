@@ -55,7 +55,7 @@ When training is complete, evaluation will automatically process.
    ```Shell
    cd eval
    bash all.sh  # evaluate the seven mathematical reasoning benchmarks
-   bash eval.sh  # evaluate one benchmarks
+   bash eval.sh  # evaluate one benchmark
    ```
 You need to modify the model path in `all.sh` and `eval.sh`.
 
