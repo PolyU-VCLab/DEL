@@ -17,6 +17,7 @@ Digit Entropy Loss for Numerical Learning of LLMs
    git clone https://github.com/PolyU-VCLab/DEL.git
    cd DEL
    ```
+   
  - Set up the environment for training Qwen and DeepSeek-Math,
   ```Shell
    conda create -n DEL-qwen python=3.10
@@ -38,4 +39,12 @@ Digit Entropy Loss for Numerical Learning of LLMs
    bash train_codellama.sh  # train CodeLlama
    bash train_mistral.sh  # train Mistral
    ```
+When training is complete, evaluation will automatically process.
 
+# Evaluation
+   ```Shell
+   cd eval
+   bash all.sh  # evaluate the seven mathematical reasoning benchmarks
+   bash eval.sh  # evaluate one benchmarks
+   ```
+You need to modify the path in `all.sh` and `eval.sh`.
