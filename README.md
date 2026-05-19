@@ -10,6 +10,16 @@ Digit Entropy Loss for Numerical Learning of LLMs
     ╚═════╝  ╚══════╝ ╚══════╝
 ```
 
+This is the source codes of our [paper](https://arxiv.org/)
+```
+@article{zheng2026DEL,
+  title={DEL: Digit Entropy Loss for Numerical Learning of Large Language Models},
+  author={Zheng, Zhaohui and He, Chenhang and Wang, Shihao and Li, Yuxuan and Cheng, Ming-Ming and Zhang, Lei},
+  journal={arXiv preprint arXiv:xxx},
+  year={2026}
+}
+```
+
 # Installation
 
  - Clone this repository and enter it:
