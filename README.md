@@ -1,5 +1,4 @@
-# DEL
-Digit Entropy Loss for Numerical Learning of LLMs
+# Digit Entropy Loss for Numerical Learning of LLMs
 
 ```
     ██████╗  ███████╗ ██╗     
