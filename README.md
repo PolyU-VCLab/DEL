@@ -50,7 +50,7 @@ When training is complete, evaluation will automatically process.
 You need to modify the model path in `all.sh` and `eval.sh`.
 
 | Model | mACC |
-|:----------:|:-------------:|:----:|:----:|
+|:----------:|:----:|
 | CodeLlama-7B | 49.0 |
 | Qwen2.5-1.5B | 55.4 |
 | Mistral-7B | 56.5 |
