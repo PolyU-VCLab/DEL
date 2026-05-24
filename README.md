@@ -79,8 +79,12 @@ The following results are evaluated on Qwen2.5-1.5B.
 | Method | mACC | Venue | 
 |:----------:|:----:|:----:|
 | [MLE](https://huggingface.co/Zzh-tju/Qwen2.5-1.5B_CE) | 52.8 | - |
-| [MixCE](https://huggingface.co/Zzh-tju/Qwen2.5-1.5B_MixCE) | 52.9 | ACL 2023 |
-| [EMO](https://huggingface.co/Zzh-tju/Qwen2.5-1.5B_EMO) | 53.4 | ICLR 2024 |
-| [NTL-WAS](https://huggingface.co/Zzh-tju/Qwen2.5-1.5B_NTL) | 53.8 | ICML 2025 |
-| [DIST2Loss](https://huggingface.co/Zzh-tju/Qwen2.5-1.5B_DIST) | 53.1 | ICLR 2026 |
+| [MixCE](https://huggingface.co/Zzh-tju/Qwen2.5-1.5B_MixCE) | 52.9 | [ACL 2023](https://aclanthology.org/2023.acl-long.502/) |
+| [EMO](https://huggingface.co/Zzh-tju/Qwen2.5-1.5B_EMO) | 53.4 | [ICLR 2024](https://openreview.net/forum?id=4bLXfRd0CX&noteId=4bLXfRd0CX) |
+| [NTL-WAS](https://huggingface.co/Zzh-tju/Qwen2.5-1.5B_NTL) | 53.8 | [ICML 2025](https://openreview.net/forum?id=V66xc5KxgY&noteId=V66xc5KxgY) |
+| [DIST2Loss](https://huggingface.co/Zzh-tju/Qwen2.5-1.5B_DIST) | 53.1 | [ICLR 2026](https://openreview.net/forum?id=s0zLtkY7iu) |
 | [DEL (Ours)](https://huggingface.co/Zzh-tju/qwen2.5-1.5B) | 55.4 | - |
+
+# Acknowledgments
+
+Thank you to Xiang Yue et al. for their fork of [MAmmoTH](https://github.com/TIGER-AI-Lab/MAmmoTH/), which is an exellent work for mathematical reasoning.
