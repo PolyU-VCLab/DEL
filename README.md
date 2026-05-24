@@ -60,9 +60,9 @@ When training is complete, evaluation will automatically process.
 You need to modify the model path in `all.sh` and `eval.sh`.
 
 | Model | mACC |
-|:----------:|:----:|
-| CodeLlama-7B | 49.0 |
-| Qwen2.5-1.5B | 55.4 |
-| Mistral-7B | 56.5 |
-| DeepSeek-math-7B-Instruct | 66.1 |
-| Qwen2.5-7B | 70.6 |
+|:----------:|:----:|:----:|
+| [CodeLlama-7B](https://huggingface.co/Zzh-tju/CodeLlama-7B) | 49.0 |
+| [Qwen2.5-1.5B](https://huggingface.co/Zzh-tju/qwen2.5-1.5B) | 55.4 |
+| [Mistral-7B](https://huggingface.co/Zzh-tju/Mistral-7B) | 56.5 |
+| [DeepSeek-math-7B-Instruct](https://huggingface.co/Zzh-tju/DeepSeek-Math-7B-instruct) | 66.1 |
+| [Qwen2.5-7B](https://huggingface.co/Zzh-tju/qwen2.5-7B) | 70.6 |
