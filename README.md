@@ -74,6 +74,8 @@ You need to modify the model path in `all.sh` and `eval.sh`.
 
 ## Loss ablation
 
+The following results are evaluated on Qwen2.5-1.5B.
+
 | Method | mACC | Venue | 
 |:----------:|:----:|:----:|
 | [MLE](https://huggingface.co/Zzh-tju/Qwen2.5-1.5B_CE) | 52.8 | - |
