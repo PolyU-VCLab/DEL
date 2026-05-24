@@ -10,7 +10,7 @@
 ```
 
 <a href="https://arxiv.org/abs/2605.20369"><img src="https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=Arxiv"></a>
-<a href="https://huggingface.co/"><img src="https://img.shields.io/badge/HuggingFace-Model-ffd21e?logo=huggingface"></a>
+
 ```
 @article{zheng2026DEL,
   title={DEL: Digit Entropy Loss for Numerical Learning of Large Language Models},
@@ -60,7 +60,7 @@ When training is complete, evaluation will automatically process.
 You need to modify the model path in `all.sh` and `eval.sh`.
 
 | Model | mACC |
-|:----------:|:----:|:----:|
+|:----------:|:----:|
 | [CodeLlama-7B](https://huggingface.co/Zzh-tju/CodeLlama-7B) | 49.0 |
 | [Qwen2.5-1.5B](https://huggingface.co/Zzh-tju/qwen2.5-1.5B) | 55.4 |
 | [Mistral-7B](https://huggingface.co/Zzh-tju/Mistral-7B) | 56.5 |
