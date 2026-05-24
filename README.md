@@ -75,7 +75,7 @@ You need to modify the model path in `all.sh` and `eval.sh`.
 ## Loss ablation
 
 | Method | mACC | Venue | 
-|:----------:|:----:|
+|:----------:|:----:|:----:|
 | [MLE](https://huggingface.co/Zzh-tju/Qwen2.5-1.5B_CE) | 52.8 | - |
 | [MixCE](https://huggingface.co/Zzh-tju/Qwen2.5-1.5B_MixCE) | 52.9 | ACL 2023 |
 | [EMO](https://huggingface.co/Zzh-tju/Qwen2.5-1.5B_EMO) | 53.4 | ICLR 2024 |
