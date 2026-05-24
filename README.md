@@ -62,6 +62,8 @@ When training is complete, evaluation will automatically process.
    ```
 You need to modify the model path in `all.sh` and `eval.sh`.
 
+## Pretrained models
+
 | Model | mACC |
 |:----------:|:----:|
 | [CodeLlama-7B](https://huggingface.co/Zzh-tju/CodeLlama-7B) | 49.0 |
@@ -69,3 +71,14 @@ You need to modify the model path in `all.sh` and `eval.sh`.
 | [Mistral-7B](https://huggingface.co/Zzh-tju/Mistral-7B) | 56.5 |
 | [DeepSeek-math-7B-Instruct](https://huggingface.co/Zzh-tju/DeepSeek-Math-7B-instruct) | 66.1 |
 | [Qwen2.5-7B](https://huggingface.co/Zzh-tju/qwen2.5-7B) | 70.6 |
+
+## Loss ablation
+
+| Method | mACC | Venue | 
+|:----------:|:----:|
+| [MLE](https://huggingface.co/Zzh-tju/Qwen2.5-1.5B_CE) | 52.8 | - |
+| [MixCE](https://huggingface.co/Zzh-tju/Qwen2.5-1.5B_MixCE) | 52.9 | ACL 2023 |
+| [EMO](https://huggingface.co/Zzh-tju/Qwen2.5-1.5B_EMO) | 53.4 | ICLR 2024 |
+| [NTL-WAS](https://huggingface.co/Zzh-tju/Qwen2.5-1.5B_NTL) | 53.8 | ICML 2025 |
+| [DIST2Loss](https://huggingface.co/Zzh-tju/Qwen2.5-1.5B_DIST) | 53.1 | ICLR 2026 |
+| [DEL (Ours)](https://huggingface.co/Zzh-tju/qwen2.5-1.5B) | 55.4 | - |
