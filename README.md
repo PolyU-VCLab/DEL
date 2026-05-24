@@ -54,6 +54,7 @@ When training is complete, evaluation will automatically process.
 # Evaluation
    ```Shell
    cd eval
+   unzip dataset.zip
    bash all.sh  # evaluate the seven mathematical reasoning benchmarks
    bash eval.sh  # evaluate one benchmark
    ```
