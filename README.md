@@ -9,7 +9,7 @@
     ╚═════╝  ╚══════╝ ╚══════╝
 ```
 
-<a href="http://arxiv.org"><img src="https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=Arxiv"></a>
+<a href="https://arxiv.org/abs/2605.20369"><img src="https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=Arxiv"></a>
 <a href="https://huggingface.co/"><img src="https://img.shields.io/badge/HuggingFace-Model-ffd21e?logo=huggingface"></a>
 ```
 @article{zheng2026DEL,
