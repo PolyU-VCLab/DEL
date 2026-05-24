@@ -17,7 +17,7 @@
 @article{zheng2026DEL,
   title={DEL: Digit Entropy Loss for Numerical Learning of Large Language Models},
   author={Zheng, Zhaohui and He, Chenhang and Wang, Shihao and Li, Yuxuan and Cheng, Ming-Ming and Zhang, Lei},
-  journal={arXiv preprint arXiv:xxx},
+  journal={arXiv preprint arXiv:2605.20369},
   year={2026}
 }
 ```
