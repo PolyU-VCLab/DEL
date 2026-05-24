@@ -11,6 +11,8 @@
 
 <a href="https://arxiv.org/abs/2605.20369"><img src="https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=Arxiv"></a>
 
+#### DEL is made for accurate number generation in language models.
+
 ```
 @article{zheng2026DEL,
   title={DEL: Digit Entropy Loss for Numerical Learning of Large Language Models},
